@@ -1,0 +1,32 @@
+body {
+max-width: 1340px;
+max-height: 1635px;
+
+}
+.homeNav {
+max-width: 90%;
+}
+.homeHeader {
+min-width: 1200px;
+min-height: 373px;
+margin: 10px 10px;
+position: relative;
+overflow: hidden;
+
+}
+article {
+
+}
+li {
+  list-style: none;
+  display: inline-block; 
+}
+.pine {
+ position: absolute;
+ top: -50px;
+ left: -10px;
+
+}
+.perMonth {
+
+}
