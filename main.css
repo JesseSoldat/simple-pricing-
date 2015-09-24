@@ -1,19 +1,42 @@
+/*global styles*/
 body {
 max-width: 1340px;
 max-height: 1635px;
 margin: 0 auto;
-
 }
+ul {
+  padding: 0px;
+  list-style: none; 
+}
+/*nav*/
 .homeNav {
-min-width: 1200px;
+min-width: 100%;
 margin: 0 auto;
 }
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px; 
+  padding: 0;
+}
+/*header*/
 .homeHeader {
 min-width: 1200px;
 min-height: 373px;
 margin: 0 auto;
 position: relative;
 overflow: hidden;
+}
+.pine {
+ position: absolute;
+ top: -50px;
+ left: -10px;
+}
+
+/*main content 1*/
+article {
+  max-width: 1340px;
+max-height: 1635px;
 }
 .mainContainer {
   max-width: 1000px;
@@ -26,8 +49,7 @@ overflow: hidden;
   display: inline-block;
 }
 .box {
-  min-width: 250px;
-  min-height: 170px;
+  
   margin: 10px 20px;
   color: white;
   padding: 20px;
@@ -41,32 +63,37 @@ overflow: hidden;
 }
 .enterprise {
   background-color: rgb(16,16,16);
-
 }
 .perMonthPlan li {
   margin: 0 auto;
   text-align: center;
   padding: 10px;
+  border: 1px solid rgb(214,214,214);
+  min-width: 250px;
+}
+.button {
+  border-radius: 10px;
+  border: 1px solid rgb(214,214,214);
+  display: inline;
+  padding: 3px;
 }
 
-
-ul {
-  padding: 0px;
-  list-style: none; 
+/*main content 2*/
+.infoContainer {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-
-nav li {
-  list-style: none;
+.infoText {
+  max-width: 400px;
+  margin: 0 auto;
   display: inline-block;
-  margin: 0 5px; 
-  padding: 0;
 }
-.pine {
- position: absolute;
- top: -50px;
- left: -10px;
-
-}
-.perMonth {
- 
+/*footer*/
+.end {
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
 }
