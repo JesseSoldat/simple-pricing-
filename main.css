@@ -1,25 +1,65 @@
 body {
 max-width: 1340px;
 max-height: 1635px;
+margin: 0 auto;
 
 }
 .homeNav {
-max-width: 90%;
+min-width: 1200px;
+margin: 0 auto;
 }
 .homeHeader {
 min-width: 1200px;
 min-height: 373px;
-margin: 10px 10px;
+margin: 0 auto;
 position: relative;
 overflow: hidden;
+}
+.mainContainer {
+  max-width: 1000px;
+  margin: 0 auto;
 
 }
-article {
+.container {
+  margin: 0 auto;
+  min-width: 250px;
+  display: inline-block;
+}
+.box {
+  min-width: 250px;
+  min-height: 170px;
+  margin: 10px 20px;
+  color: white;
+  padding: 20px;
+}
+.personal {
+  background-color: rgb(83,147,70);
+}
+
+.smallBusiness {
+  background-color: rgb(44,71,138);
+}
+.enterprise {
+  background-color: rgb(16,16,16);
 
 }
-li {
+.perMonthPlan li {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+
+ul {
+  padding: 0px;
+  list-style: none; 
+}
+
+nav li {
   list-style: none;
-  display: inline-block; 
+  display: inline-block;
+  margin: 0 5px; 
+  padding: 0;
 }
 .pine {
  position: absolute;
@@ -28,5 +68,5 @@ li {
 
 }
 .perMonth {
-
+ 
 }
