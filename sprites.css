@@ -1,0 +1,13 @@
+.phone-icon {
+  background: url('images/sprite@2x.png') no-repeat -205px 0;
+  background-size: 400px 200px;
+  width: 60px;
+  height: 60px;
+}
+​
+.facebook-icon {
+  background: url('images/sprite@2x.png') no-repeat -270px 0;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+}

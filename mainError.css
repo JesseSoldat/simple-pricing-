@@ -1,0 +1,171 @@
+/*global styles*/
+
+ul {
+  padding: 0px;
+  margin: 0;
+  list-style: none; 
+}
+body {
+/*max-width: 1340px;
+max-height: 1635px;*/
+width: 90%;
+margin: 0 auto;
+}
+/*nav*/
+.homeNav {
+width: 90%;
+margin: 0 auto;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px; 
+  padding: 0;
+  color: rgb(96,103,110);
+}
+nav li:hover {
+  text-decoration: none;
+  color: black;
+}
+/*header*/
+.homeHeader {
+min-width: 1200px;
+min-height: 373px;
+margin: 0 auto;
+position: relative;
+overflow: hidden;
+}
+.pine {
+ position: absolute;
+ top: -50px;
+ left: -10px;
+}
+#simplePricing {
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 450px;
+  font-size: 38px;
+  text-shadow: 1px 1px 1px black;
+  line-height: 20px;
+  font-family: Helvetica;
+}
+#tryBefore {
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 400px;
+  font-size: 38px;
+  text-shadow: 1px 1px 1px black;
+  line-height: 20px;
+  font-family: Helvetica;
+}
+/*main content 1*/
+article {
+ /* max-width: 1340px;
+  max-height: 1635px;*/
+}
+/*container for all 3 boxes and list*/
+.mainContainer {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.boxesContainer {
+  display: inline-block;
+  margin: 0 auto;
+}
+/*3 boxes*/
+.container {
+  width: 25%;
+  display: inline-block;
+  margin: 2% 2%;
+  }
+.box { 
+  margin: 10px 0 0 0;
+  color: white;
+  width: 100%;
+  display: block;
+}
+/*green box*/
+.personal {
+  background-color: rgba(83,147,70,5);
+}
+/*blue box*/
+.smallBusiness {
+  background-color: rgb(44,71,138);
+}
+/*black box*/
+.enterprise {
+  background-color: rgb(16,16,16);
+}
+.smallText {
+  text-align: center;
+  vertical-align: middle;
+  padding: 2em;
+}
+.bigText {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+}
+.perMonth {
+  color: rgb(150,163,197);
+}
+/*3 list*/
+.perMonthPlan li {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(214,214,214);
+  min-width: 250px;
+  background-color: rgb(247,247,247);
+  color: rgb(85,99,106);
+}
+.white {
+  background-color: white;
+}
+
+.button {
+  border-radius: 15px;
+  border: 1px solid rgb(214,214,214);
+  padding: 7px 15px;
+  display: inline-block;
+  color: black;
+  background-color: white;
+}
+
+/*main content 2*/
+.infoContainer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.infoText {
+  max-width: 45%;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 2%;
+}
+.pInfo {
+  color: rgb(113,124,131);
+  line-height: 1.5em;
+  font-size: .8em;
+  letter-spacing: .05em;
+
+}
+/*footer*/
+.end {
+  background-color: black;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.grey {
+  color: rgb(134,134,134);
+}
+.underline {
+  text-decoration: underline;
+  color: white;
+}
