@@ -3,17 +3,62 @@ div {
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 /*nav*/
 .homeNav {
 width: 95%;
 margin: 0 auto;
 background-color: yellow;
 }
+.homeNav li {
+  display: inline-block;
+  color: rgb(96,103,110);
+  margin: 0 5px;
+}
+.homeNav li:hover {
+  text-decoration: none;
+  color: black;
+}
 /*header*/
 .header {
 width: 95%;
+height: 350px;
 margin: 0 auto;
 background-color: blue;
+position: relative;
+overflow: hidden;
+}
+/*header picture*/
+.pine {
+ position: absolute;
+ top: -50px;
+ left: -10px;
+}
+/* 1st line of header text*/
+#simplePricing {
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 450px;
+  font-size: 38px;
+  text-shadow: 1px 1px 1px black;
+  line-height: 20px;
+  font-family: Helvetica;
+}
+/* 2nd line of header text*/
+#tryBefore {
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 400px;
+  font-size: 38px;
+  text-shadow: 1px 1px 1px black;
+  line-height: 20px;
+  font-family: Helvetica;
 }
 /*main content part 1 and 2*/
 .pageContainer {
@@ -38,6 +83,59 @@ width: 25%;
 margin: 0 auto;
 background-color: purple;
 display: inline-block;
+}
+/*all the boxes*/
+.box { 
+  color: white;
+  width: 100%;
+}
+/*green box*/
+.personal {
+  background-color: rgba(83,147,70,5);
+}
+/*blue box*/
+.smallBusiness {
+  background-color: rgb(44,71,138);
+}
+/*black box*/
+.enterprise {
+  background-color: rgb(16,16,16);
+}
+.smallText {
+  text-align: center;
+  vertical-align: middle;
+  padding: 2em;
+}
+.bigText {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+}
+.perMonth {
+  color: rgb(150,163,197);
+}
+/*3 list*/
+.perMonthPlan li {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(214,214,214);
+  background-color: rgb(247,247,247);
+  color: rgb(85,99,106);
+  box-sizing: border-box;
+}
+.white {
+  background-color: white;
+}
+
+.button {
+  border-radius: 15px;
+  border: 1px solid rgb(214,214,214);
+  padding: 7px 15px;
+  display: inline-block;
+  color: black;
+  background-color: white;
 }
 /*main content part 2*/
 .mainContainer2 {
