@@ -1,16 +1,18 @@
 /*global styles*/
 body {
-max-width: 1340px;
-max-height: 1635px;
+/*max-width: 1340px;
+max-height: 1635px;*/
+width: 100%;
 margin: 0 auto;
 }
 ul {
   padding: 0px;
+  margin: 0;
   list-style: none; 
 }
 /*nav*/
 .homeNav {
-min-width: 100%;
+width: 90%;
 margin: 0 auto;
 }
 nav li {
@@ -32,38 +34,30 @@ overflow: hidden;
  top: -50px;
  left: -10px;
 }
-
 /*main content 1*/
 article {
   max-width: 1340px;
 max-height: 1635px;
 }
+/*container for all 3 boxes and list*/
 .mainContainer {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
-
 }
+/*3 boxes*/
 .container {
   margin: 0 auto;
   min-width: 250px;
   display: inline-block;
-}
-.box {
-  
-  margin: 10px 20px;
+  }
+.box { 
+  margin: 10px 0 0 0;
   color: white;
   padding: 20px;
-}
-.personal {
-  background-color: rgb(83,147,70);
-}
+  width: 250px;
 
-.smallBusiness {
-  background-color: rgb(44,71,138);
 }
-.enterprise {
-  background-color: rgb(16,16,16);
-}
+/*3 list*/
 .perMonthPlan li {
   margin: 0 auto;
   text-align: center;
@@ -77,6 +71,19 @@ max-height: 1635px;
   display: inline;
   padding: 3px;
 }
+/*green box*/
+.personal {
+  background-color: rgb(83,147,70);
+}
+/*blue box*/
+.smallBusiness {
+  background-color: rgb(44,71,138);
+}
+/*black box*/
+.enterprise {
+  background-color: rgb(16,16,16);
+}
+
 
 /*main content 2*/
 .infoContainer {
